@@ -1,4 +1,4 @@
-# ShopCart - E-commerce Shopping Cart Application
+# Shop Easy Cart- E-commerce Shopping Cart Application
 
 A modern ReactJS application that allows users to browse products from the Fake Store API and manage their shopping cart through an intuitive modal interface.
 
