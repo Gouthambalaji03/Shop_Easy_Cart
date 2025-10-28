@@ -20,6 +20,12 @@ function App() {
         const data = await response.json();
         setProducts(data);
         setLoading(false);
+        
+        // Preload first 4 images for better perceived performance
+        data.slice(0, 4).forEach((product) => {
+          const img = new Image();
+          img.src = product.image;
+        });
       } catch (error) {
         console.error('Error fetching products:', error);
         setLoading(false);
