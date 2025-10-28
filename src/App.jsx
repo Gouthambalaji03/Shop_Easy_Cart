@@ -102,7 +102,6 @@ function App() {
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
         cart={cart}
-        onRemoveFromCart={removeFromCart}
         onUpdateQuantity={updateQuantity}
         total={getCartTotal()}
       />
