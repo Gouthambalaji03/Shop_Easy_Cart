@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import ProductGrid from './components/ProductGrid';
-import CartModal from './components/CartModal';
-import Alert from './components/Alert';
+import Navbar from './components/Navbar.jsx';
+import ProductGrid from './components/ProductGrid.jsx';
+import CartModal from './components/CartModal.jsx';
+import Alert from './components/Alert.jsx';
 import './App.css';
 
 function App() {
